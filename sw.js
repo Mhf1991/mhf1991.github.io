@@ -4,6 +4,7 @@ const urlsToCache = [
   '/static/js/main.js',
   '/static/css/style.css',
   'https://drive.iust.ac.ir/public.php/dav/files/Yn7rRmYdfY7LZBC/components.csv',
+  '/static/comps.csv',
   '/static/images/add.png',
   '/static/images/logo.png',
   '/static/images/mainlogo.ico',
