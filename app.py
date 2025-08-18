@@ -5,10 +5,8 @@ app = Flask(__name__)
 
 def load_components():
     components = []
-    with open('./static/components.csv', newline='', encoding='utf-8-sig') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            components.append(row)
+    with open('./static/components.json', encoding='utf-8') as jsonfile:
+        components = json.load(jsonfile) 
     return components
 
 @app.route('/components', methods=['GET'])
@@ -28,3 +26,4 @@ def index():
 if __name__ == '__main__':
     # app.run(debug=True)
     app.run(host='0.0.0.0', port=5000, debug=True)
+
