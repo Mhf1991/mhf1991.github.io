@@ -1,7 +1,7 @@
 let componentsData = [];
 let componentProperties = {};
 
-fetch("/components")
+fetch("/static/components")
   .then((resp) => resp.json())
   .then((data) => {
     componentsData = data;
@@ -282,3 +282,4 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
+
