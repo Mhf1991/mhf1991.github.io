@@ -1,7 +1,7 @@
 let componentsData = [];
 let componentProperties = {};
 
-fetch("https://drive.iust.ac.ir/public.php/dav/files/Yn7rRmYdfY7LZBC/components.csv")
+fetch("/components")
   .then((resp) => resp.json())
   .then((data) => {
     componentsData = data;
@@ -282,5 +282,6 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
+
 
 
