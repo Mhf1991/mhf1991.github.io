@@ -3,7 +3,7 @@ const urlsToCache = [
   '/',
   '/static/js/main.js',
   '/static/css/style.css',
-  '/static/components.csv',
+  'https://drive.iust.ac.ir/public.php/dav/files/Yn7rRmYdfY7LZBC/components.csv',
   '/static/images/Add.png',
   '/static/images/logo.png',
   '/static/images/MainLogo.ico',
@@ -35,3 +35,4 @@ self.addEventListener('fetch', (event) => {
       })
   );
 });
+
