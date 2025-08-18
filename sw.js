@@ -3,7 +3,7 @@ const urlsToCache = [
   '/',
   '/static/js/main.js',
   '/static/css/style.css',
-  '/static/components.csv',
+  '/static/components.json',
   '/static/images/add.png',
   '/static/images/logo.png',
   '/static/images/mainlogo.ico',
@@ -35,6 +35,7 @@ self.addEventListener('fetch', (event) => {
       })
   );
 });
+
 
 
 
