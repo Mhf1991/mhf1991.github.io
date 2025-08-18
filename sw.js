@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-pwa-cache-v01';
+const CACHE_NAME = 'my-pwa-cache-v02';
 const urlsToCache = [
   '/',
   '/static/js/main.js',
@@ -36,5 +36,6 @@ self.addEventListener('fetch', (event) => {
       })
   );
 });
+
 
 
