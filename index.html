@@ -149,7 +149,16 @@
         <div id="result2"></div>
     </div>
 
-    <script src="/static/js/main.js"></script>
+
+    <script>
+        const link = document.createElement('link');
+        link.rel = "stylesheet";
+        link.href = `/static/css/style.css?v=${Date.now()}`;
+        document.head.appendChild(link);
+        const script = document.createElement('script');
+        script.src = `/static/js/main.js?v=${Date.now()}`;
+        document.head.appendChild(script);
+    </script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
@@ -163,6 +172,7 @@
 </body>
 
 </html>
+
 
 
 
