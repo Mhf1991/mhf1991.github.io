@@ -15,7 +15,8 @@ fetch("/static/components.json")
         TotalSulfur: parseFloat(c.TotalSulfur),
         VBN: 14.534 * Math.log(Math.log(parseFloat(c.Viscosity) + 0.8)) + 10.975,
         PP: Math.pow(parseFloat(c.PourPoint) + 273.15, 12.5),
-        FP: Math.pow(10, -6.1188 + 2414 / (parseFloat(c.FlashPoint) + 273.15 - 42.6))
+        FP: Math.pow(10, -6.1188 + 2414 / (parseFloat(c.FlashPoint) + 273.15 - 42.6)),
+        BGC_noVA: parseFloat(c.BGC-without-VA),
       };
       const row = document.createElement("tr");
       row.innerHTML = `<td><input type="checkbox" class="row-checkbox"></td>
@@ -112,6 +113,7 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
   let weightedSumVBN = 0;
   let weightedSumPPB = 0;
   let weightedSumFPB = 0;
+  let weightedBGCNOVA = 0;
 
   document.querySelectorAll("#selectedTable tbody tr").forEach((row) => {
     const cells = row.querySelectorAll("td");
@@ -129,8 +131,9 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
       weightedSumRho += fraction / componentProperties[key].Density;
       weightedSumTS += fraction * componentProperties[key].TotalSulfur;
       weightedSumVBN += fraction * componentProperties[key].VBN;
-      weightedSumPPB += fraction * componentProperties[key].PP / componentProperties[key].Density
-      weightedSumFPB += fraction * componentProperties[key].FP / componentProperties[key].Density
+      weightedSumPPB += fraction * componentProperties[key].PP / componentProperties[key].Density;
+      weightedSumFPB += fraction * componentProperties[key].FP / componentProperties[key].Density;
+      weightedBGCNOVA += fraction* BGC_noVA
     }
   });
 
@@ -142,10 +145,29 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
   let mixedPourPoint = Math.pow(mixedPP, 0.08) - 273.15;
   let mixedFP = mixedDensity * weightedSumFPB / totalFraction;
   let mixedFlashPoint = 2414 / (Math.log10(mixedFP) + 6.1188) + 42.6 - 273.15;
-  document.getElementById(
-    "result"
-  ).innerText = `Density: ${mixedDensity.toFixed(4)} g/cm³ \n Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm \n Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt \n Pour Point: ${mixedPourPoint.toFixed(1)} degC \n Flash Point: ${mixedFlashPoint.toFixed(2)} degC`;
-});
+  let mixedbgcva = weightedBGCNOVA / totalFraction;
+
+  const specs = ["Density", "Total Sulfur", "Kinematic Viscosity", "Pour Point", "Flash Point"];
+  const values = [
+    `${mixedDensity.toFixed(4)} g/cm³`,
+    `${mixedTotalSulfur.toFixed(0)} ppm`,
+    `${mixedViscosity.toFixed(1)} cSt`,
+    `${mixedPourPoint.toFixed(1)} °C`,
+    `${mixedFlashPoint.toFixed(2)} °C`
+  ];
+
+  document.getElementById("result").innerHTML = `
+    <div>
+      ${specs.map(s => `<div>${s}</div>`).join("")}
+    </div>
+    <div>
+      ${values.map(v => `<div>${v}</div>`).join("")}
+    </div>`;
+
+//   document.getElementById(
+//     "result"
+//   ).innerText = `Density: ${mixedDensity.toFixed(4)} g/cm³ \n Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm \n Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt \n Pour Point: ${mixedPourPoint.toFixed(1)} degC \n Flash Point: ${mixedFlashPoint.toFixed(2)} degC`;
+// });
 
 // تابع ساده برای فیلتر
 function filterTable(inputId, tableId, colIndex) {
