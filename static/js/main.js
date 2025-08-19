@@ -165,11 +165,11 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
 
   document.getElementById(
     "result1"
-  ).innerText = `Specifications:  \n Density: ${mixedDensity.toFixed(4)} g/cm³ \n Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm \n Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt \n Pour Point: ${mixedPourPoint.toFixed(1)} degC \n Flash Point: ${mixedFlashPoint.toFixed(2)} degC \n\n`;
+  ).innerText = `Specifications:  \n Density: ${mixedDensity.toFixed(4)} g/cm³ \n Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm \n Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt \n Pour Point: ${mixedPourPoint.toFixed(1)} degC \n Flash Point: ${mixedFlashPoint.toFixed(2)} degC`;
 
 document.getElementById(
     "result2"
-  ).innerText = `Total Cost:  \n Base: ${mixed_BasePrice.toFixed(0)} Rls/kg \n With BGC & Without VA: ${mixed_BGC_noVA.toFixed(0)} Rls/kg \n With VA & Without BGC: $${mixed_VA_noBGC.toFixed(0)} Rls/kg \n Without VA & BGC: ${mixed_noBGC_VA.toFixed(0)} Rls/kg \n Both VA & BGC: ${mixed_BGC_VA.toFixed(0)} Rls/kg \n\n`;
+  ).innerText = `Total Cost:  \n Base: ${mixed_BasePrice.toFixed(0)} Rls/kg \n With BGC & Without VA: ${mixed_BGC_noVA.toFixed(0)} Rls/kg \n With VA & Without BGC: $${mixed_VA_noBGC.toFixed(0)} Rls/kg \n Without VA & BGC: ${mixed_noBGC_VA.toFixed(0)} Rls/kg \n Both VA & BGC: ${mixed_BGC_VA.toFixed(0)} Rls/kg`;
 });
 
 // تابع ساده برای فیلتر
@@ -307,8 +307,3 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
-
-
-
-
-
