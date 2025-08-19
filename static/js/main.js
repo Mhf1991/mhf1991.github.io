@@ -163,38 +163,13 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
   let mixed_noBGC_VA=10 *weighted_noBGC_VA / totalFraction;
   let mixed_BGC_VA=10 * weighted_BGC_VA / totalFraction;
 
-  const specs = ["Density", "Total Sulfur", "Kinematic Viscosity", "Pour Point", "Flash Point"];
-  const values = [
-    `${mixedDensity.toFixed(4)}  g/cm³`,
-    `${mixedTotalSulfur.toFixed(0)}  ppm`,
-    `${mixedViscosity.toFixed(1)}  cSt`,
-    `${mixedPourPoint.toFixed(1)}  °C`,
-    `${mixedFlashPoint.toFixed(2)}  °C`
-  ];
+  document.getElementById(
+    "result1"
+  ).innerText = `Specifications:  \n Density: ${mixedDensity.toFixed(4)} g/cm³ \n Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm \n Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt \n Pour Point: ${mixedPourPoint.toFixed(1)} degC \n Flash Point: ${mixedFlashPoint.toFixed(2)} degC \n\n`;
 
-  const costtype = ["Base", "With BGC & Without VA", "With VA & Without BGC", "Without VA & BGC", "Both VA & BGC"];
-  const costs = [
-    `${mixed_BasePrice.toFixed(0)}  Rls/kg`,
-    `${mixed_BGC_noVA.toFixed(0)}  Rls/kg`,
-    `${mixed_VA_noBGC.toFixed(0)}  Rls/kg`,
-    `${mixed_noBGC_VA.toFixed(0)}  Rls/kg`,
-    `${mixed_BGC_VA.toFixed(0)}  Rls/kg`
-  ];
-  
-  document.getElementById("result").innerHTML = `
-    <div>
-      ${specs.map(s => `<div>${s}</div>`).join("")}
-    </div>
-    <div>
-      ${values.map(v => `<div>${v}</div>`).join("")}
-    </div>
-    <div>
-      ${costtype.map(t => `<div>${t}</div>`).join("")}
-    </div>
-    <div>
-      ${costs.map(c => `<div>${c}</div>`).join("")}
-    </div>
-  `;
+document.getElementById(
+    "result2"
+  ).innerText = `Total Cost:  \n Base: ${mixed_BasePrice.toFixed(0)} Rls/kg \n With BGC & Without VA: ${mixed_BGC_noVA.toFixed(0)} Rls/kg \n With VA & Without BGC: $${mixed_VA_noBGC.toFixed(0)} Rls/kg \n Without VA & BGC: ${mixed_noBGC_VA.toFixed(0)} Rls/kg \n Both VA & BGC: ${mixed_BGC_VA.toFixed(0)} Rls/kg \n\n`;
 });
 
 // تابع ساده برای فیلتر
@@ -332,6 +307,7 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
+
 
 
 
