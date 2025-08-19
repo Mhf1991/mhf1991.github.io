@@ -16,10 +16,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "36671",
-        "BGC-without-VA": "52637.18787",
-        "VA-without-BGC": "50417.13118",
-        "Without-BGC&VA": "49370.73504",
-        "BGC&VA": "53683.58401",
+        "BGC_noVA": "52637.18787",
+        "VA_noBGC": "50417.13118",
+        "noBGC_VA": "49370.73504",
+        "BGC_VA": "53683.58401",
         "DateModified": "1404-05-01"
     },
     {
@@ -39,10 +39,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "36671",
-        "BGC-without-VA": "53457.95334",
-        "VA-without-BGC": "52430.41118",
-        "Without-BGC&VA": "51384.01504",
-        "BGC&VA": "54504.34949",
+        "BGC_noVA": "53457.95334",
+        "VA_noBGC": "52430.41118",
+        "noBGC_VA": "51384.01504",
+        "BGC_VA": "54504.34949",
         "DateModified": "1404-05-01"
     },
     {
@@ -62,10 +62,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "36671",
-        "BGC-without-VA": "55945.72249",
-        "VA-without-BGC": "53881.21118",
-        "Without-BGC&VA": "52834.81504",
-        "BGC&VA": "56992.11864",
+        "BGC_noVA": "55945.72249",
+        "VA_noBGC": "53881.21118",
+        "noBGC_VA": "52834.81504",
+        "BGC_VA": "56992.11864",
         "DateModified": "1404-05-01"
     },
     {
@@ -85,10 +85,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "33587",
-        "BGC-without-VA": "51438.80087",
-        "VA-without-BGC": "48530.87376",
-        "Without-BGC&VA": "47549.77982",
-        "BGC&VA": "52419.89482",
+        "BGC_noVA": "51438.80087",
+        "VA_noBGC": "48530.87376",
+        "noBGC_VA": "47549.77982",
+        "BGC_VA": "52419.89482",
         "DateModified": "1404-05-01"
     },
     {
@@ -108,10 +108,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "34221",
-        "BGC-without-VA": "52348.60755",
-        "VA-without-BGC": "49385.78939",
-        "Without-BGC&VA": "48386.17597",
-        "BGC&VA": "53348.22097",
+        "BGC_noVA": "52348.60755",
+        "VA_noBGC": "49385.78939",
+        "noBGC_VA": "48386.17597",
+        "BGC_VA": "53348.22097",
         "DateModified": "1404-05-01"
     },
     {
@@ -131,10 +131,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "38417",
-        "BGC-without-VA": "53887.93691",
-        "VA-without-BGC": "52851.43864",
-        "Without-BGC&VA": "51795.92205",
-        "BGC&VA": "54943.45349",
+        "BGC_noVA": "53887.93691",
+        "VA_noBGC": "52851.43864",
+        "noBGC_VA": "51795.92205",
+        "BGC_VA": "54943.45349",
         "DateModified": "1404-05-01"
     },
     {
@@ -154,10 +154,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "38249",
-        "BGC-without-VA": "52945.27754",
-        "VA-without-BGC": "51928.41388",
-        "Without-BGC&VA": "50892.89217",
-        "BGC&VA": "53980.79924",
+        "BGC_noVA": "52945.27754",
+        "VA_noBGC": "51928.41388",
+        "noBGC_VA": "50892.89217",
+        "BGC_VA": "53980.79924",
         "DateModified": "1404-05-01"
     },
     {
@@ -177,10 +177,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "44000",
-        "BGC-without-VA": "48253.8",
-        "VA-without-BGC": "49230.6",
-        "Without-BGC&VA": "48253.8",
-        "BGC&VA": "49230.6",
+        "BGC_noVA": "48253.8",
+        "VA_noBGC": "49230.6",
+        "noBGC_VA": "48253.8",
+        "BGC_VA": "49230.6",
         "DateModified": "1404-05-01"
     },
     {
@@ -200,10 +200,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "43875",
-        "BGC-without-VA": "48822.77",
-        "VA-without-BGC": "46756.2575",
-        "Without-BGC&VA": "45782.2325",
-        "BGC&VA": "49796.795",
+        "BGC_noVA": "48822.77",
+        "VA_noBGC": "46756.2575",
+        "noBGC_VA": "45782.2325",
+        "BGC_VA": "49796.795",
         "DateModified": "1404-05-01"
     },
     {
@@ -223,10 +223,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "28880",
-        "BGC-without-VA": "34424.1936",
-        "VA-without-BGC": "33445.1616",
-        "Without-BGC&VA": "32804.0256",
-        "BGC&VA": "35065.3296",
+        "BGC_noVA": "34424.1936",
+        "VA_noBGC": "33445.1616",
+        "noBGC_VA": "32804.0256",
+        "BGC_VA": "35065.3296",
         "DateModified": "1404-05-01"
     },
     {
@@ -246,10 +246,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "33882",
-        "BGC-without-VA": "38096.33084",
-        "VA-without-BGC": "38848.51124",
-        "Without-BGC&VA": "38096.33084",
-        "BGC&VA": "38848.51124",
+        "BGC_noVA": "38096.33084",
+        "VA_noBGC": "38848.51124",
+        "noBGC_VA": "38096.33084",
+        "BGC_VA": "38848.51124",
         "DateModified": "1404-05-01"
     },
     {
@@ -269,10 +269,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "29663",
-        "BGC-without-VA": "34812.67581",
-        "VA-without-BGC": "34247.59566",
-        "Without-BGC&VA": "33589.07706",
-        "BGC&VA": "35471.19441",
+        "BGC_noVA": "34812.67581",
+        "VA_noBGC": "34247.59566",
+        "noBGC_VA": "33589.07706",
+        "BGC_VA": "35471.19441",
         "DateModified": "1404-05-01"
     },
     {
@@ -292,10 +292,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "23731",
-        "BGC-without-VA": "28330.27897",
-        "VA-without-BGC": "27878.20342",
-        "Without-BGC&VA": "27351.37522",
-        "BGC&VA": "28857.10717",
+        "BGC_noVA": "28330.27897",
+        "VA_noBGC": "27878.20342",
+        "noBGC_VA": "27351.37522",
+        "BGC_VA": "28857.10717",
         "DateModified": "1404-05-01"
     },
     {
@@ -315,10 +315,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "28584",
-        "BGC-without-VA": "34519.40549",
-        "VA-without-BGC": "35169.28829",
-        "Without-BGC&VA": "34519.40549",
-        "BGC&VA": "35169.28829",
+        "BGC_noVA": "34519.40549",
+        "VA_noBGC": "35169.28829",
+        "noBGC_VA": "34519.40549",
+        "BGC_VA": "35169.28829",
         "DateModified": "1404-05-01"
     },
     {
@@ -338,10 +338,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "42062.31968",
-        "VA-without-BGC": "40847.20808",
-        "Without-BGC&VA": "40051.47128",
-        "BGC&VA": "42858.05648",
+        "BGC_noVA": "42062.31968",
+        "VA_noBGC": "40847.20808",
+        "noBGC_VA": "40051.47128",
+        "BGC_VA": "42858.05648",
         "DateModified": "1404-05-01"
     },
     {
@@ -361,10 +361,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "40162.10048",
-        "VA-without-BGC": "38473.84808",
-        "Without-BGC&VA": "37678.11128",
-        "BGC&VA": "40957.83728",
+        "BGC_noVA": "40162.10048",
+        "VA_noBGC": "38473.84808",
+        "noBGC_VA": "37678.11128",
+        "BGC_VA": "40957.83728",
         "DateModified": "1404-05-01"
     },
     {
@@ -384,10 +384,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "41483.52728",
-        "VA-without-BGC": "40702.12808",
-        "Without-BGC&VA": "39906.39128",
-        "BGC&VA": "42279.26408",
+        "BGC_noVA": "41483.52728",
+        "VA_noBGC": "40702.12808",
+        "noBGC_VA": "39906.39128",
+        "BGC_VA": "42279.26408",
         "DateModified": "1404-05-01"
     },
     {
@@ -407,10 +407,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "42004.38328",
-        "VA-without-BGC": "39645.84808",
-        "Without-BGC&VA": "38850.11128",
-        "BGC&VA": "42800.12008",
+        "BGC_noVA": "42004.38328",
+        "VA_noBGC": "39645.84808",
+        "noBGC_VA": "38850.11128",
+        "BGC_VA": "42800.12008",
         "DateModified": "1404-05-01"
     },
     {
@@ -430,10 +430,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "42133.787",
-        "VA-without-BGC": "40630.84808",
-        "Without-BGC&VA": "39835.11128",
-        "BGC&VA": "42929.5238",
+        "BGC_noVA": "42133.787",
+        "VA_noBGC": "40630.84808",
+        "noBGC_VA": "39835.11128",
+        "BGC_VA": "42929.5238",
         "DateModified": "1404-05-01"
     },
     {
@@ -453,10 +453,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "33947",
-        "BGC-without-VA": "39377.96914",
-        "VA-without-BGC": "38637.92454",
-        "Without-BGC&VA": "37884.30114",
-        "BGC&VA": "40131.59254",
+        "BGC_noVA": "39377.96914",
+        "VA_noBGC": "38637.92454",
+        "noBGC_VA": "37884.30114",
+        "BGC_VA": "40131.59254",
         "DateModified": "1404-05-01"
     },
     {
@@ -476,10 +476,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "33947",
-        "BGC-without-VA": "40146.23714",
-        "VA-without-BGC": "37912.52454",
-        "Without-BGC&VA": "37158.90114",
-        "BGC&VA": "40899.86054",
+        "BGC_noVA": "40146.23714",
+        "VA_noBGC": "37912.52454",
+        "noBGC_VA": "37158.90114",
+        "BGC_VA": "40899.86054",
         "DateModified": "1404-05-01"
     },
     {
@@ -499,10 +499,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "33947",
-        "BGC-without-VA": "40351.48225",
-        "VA-without-BGC": "38928.08454",
-        "Without-BGC&VA": "38174.46114",
-        "BGC&VA": "41105.10565",
+        "BGC_noVA": "40351.48225",
+        "VA_noBGC": "38928.08454",
+        "noBGC_VA": "38174.46114",
+        "BGC_VA": "41105.10565",
         "DateModified": "1404-05-01"
     },
     {
@@ -522,10 +522,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "40427",
-        "BGC-without-VA": "45144.58984",
-        "VA-without-BGC": "43240.47814",
-        "Without-BGC&VA": "42342.99874",
-        "BGC&VA": "46042.06924",
+        "BGC_noVA": "45144.58984",
+        "VA_noBGC": "43240.47814",
+        "noBGC_VA": "42342.99874",
+        "BGC_VA": "46042.06924",
         "DateModified": "1404-05-01"
     },
     {
@@ -545,10 +545,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "40427",
-        "BGC-without-VA": "46044.00274",
-        "VA-without-BGC": "45162.69414",
-        "Without-BGC&VA": "44265.21474",
-        "BGC&VA": "46941.48214",
+        "BGC_noVA": "46044.00274",
+        "VA_noBGC": "45162.69414",
+        "noBGC_VA": "44265.21474",
+        "BGC_VA": "46941.48214",
         "DateModified": "1404-05-01"
     },
     {
@@ -568,10 +568,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "40427",
-        "BGC-without-VA": "46882.57474",
-        "VA-without-BGC": "44222.47814",
-        "Without-BGC&VA": "43324.99874",
-        "BGC&VA": "47780.05414",
+        "BGC_noVA": "46882.57474",
+        "VA_noBGC": "44222.47814",
+        "noBGC_VA": "43324.99874",
+        "BGC_VA": "47780.05414",
         "DateModified": "1404-05-01"
     },
     {
@@ -591,10 +591,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "40427",
-        "BGC-without-VA": "39602.58687",
-        "VA-without-BGC": "40410.31833",
-        "Without-BGC&VA": "39602.58687",
-        "BGC&VA": "40410.31833",
+        "BGC_noVA": "39602.58687",
+        "VA_noBGC": "40410.31833",
+        "noBGC_VA": "39602.58687",
+        "BGC_VA": "40410.31833",
         "DateModified": "1404-05-01"
     },
     {
@@ -614,10 +614,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "40427",
-        "BGC-without-VA": "47264.02225",
-        "VA-without-BGC": "45568.91814",
-        "Without-BGC&VA": "44671.43874",
-        "BGC&VA": "48161.50165",
+        "BGC_noVA": "47264.02225",
+        "VA_noBGC": "45568.91814",
+        "noBGC_VA": "44671.43874",
+        "BGC_VA": "48161.50165",
         "DateModified": "1404-05-01"
     },
     {
@@ -637,10 +637,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "42050.95968",
-        "VA-without-BGC": "40835.84808",
-        "Without-BGC&VA": "40040.11128",
-        "BGC&VA": "42846.69648",
+        "BGC_noVA": "42050.95968",
+        "VA_noBGC": "40835.84808",
+        "noBGC_VA": "40040.11128",
+        "BGC_VA": "42846.69648",
         "DateModified": "1404-05-01"
     },
     {
@@ -660,10 +660,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "40162.10048",
-        "VA-without-BGC": "38473.84808",
-        "Without-BGC&VA": "37678.11128",
-        "BGC&VA": "40957.83728",
+        "BGC_noVA": "40162.10048",
+        "VA_noBGC": "38473.84808",
+        "noBGC_VA": "37678.11128",
+        "BGC_VA": "40957.83728",
         "DateModified": "1404-05-01"
     },
     {
@@ -683,10 +683,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "37636",
-        "BGC-without-VA": "44579.81432",
-        "VA-without-BGC": "42103.36552",
-        "Without-BGC&VA": "41267.84632",
-        "BGC&VA": "45415.33352",
+        "BGC_noVA": "44579.81432",
+        "VA_noBGC": "42103.36552",
+        "noBGC_VA": "41267.84632",
+        "BGC_VA": "45415.33352",
         "DateModified": "1404-05-01"
     },
     {
@@ -706,10 +706,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "35844",
-        "BGC-without-VA": "41581.787",
-        "VA-without-BGC": "40078.84808",
-        "Without-BGC&VA": "39283.11128",
-        "BGC&VA": "42377.5238",
+        "BGC_noVA": "41581.787",
+        "VA_noBGC": "40078.84808",
+        "noBGC_VA": "39283.11128",
+        "BGC_VA": "42377.5238",
         "DateModified": "1404-05-01"
     },
     {
@@ -729,10 +729,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "26701",
-        "BGC-without-VA": "30111.41592",
-        "VA-without-BGC": "28853.79882",
-        "Without-BGC&VA": "28261.03662",
-        "BGC&VA": "30704.17812",
+        "BGC_noVA": "30111.41592",
+        "VA_noBGC": "28853.79882",
+        "noBGC_VA": "28261.03662",
+        "BGC_VA": "30704.17812",
         "DateModified": "1404-05-01"
     },
     {
@@ -752,10 +752,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "28584",
-        "BGC-without-VA": "34519.40549",
-        "VA-without-BGC": "35169.28829",
-        "Without-BGC&VA": "34519.40549",
-        "BGC&VA": "35169.28829",
+        "BGC_noVA": "34519.40549",
+        "VA_noBGC": "35169.28829",
+        "noBGC_VA": "34519.40549",
+        "BGC_VA": "35169.28829",
         "DateModified": "1404-05-01"
     },
     {
@@ -775,10 +775,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "29274",
-        "BGC-without-VA": "35209.40549",
-        "VA-without-BGC": "35859.28829",
-        "Without-BGC&VA": "35209.40549",
-        "BGC&VA": "35859.28829",
+        "BGC_noVA": "35209.40549",
+        "VA_noBGC": "35859.28829",
+        "noBGC_VA": "35209.40549",
+        "BGC_VA": "35859.28829",
         "DateModified": "1404-05-01"
     },
     {
@@ -798,10 +798,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "28584",
-        "BGC-without-VA": "34519.40549",
-        "VA-without-BGC": "35169.28829",
-        "Without-BGC&VA": "34519.40549",
-        "BGC&VA": "35169.28829",
+        "BGC_noVA": "34519.40549",
+        "VA_noBGC": "35169.28829",
+        "noBGC_VA": "34519.40549",
+        "BGC_VA": "35169.28829",
         "DateModified": "1404-05-01"
     },
     {
@@ -821,10 +821,10 @@
         "Aromatic": "61.14",
         "Benzene": "27.86",
         "BasePrice": "",
-        "BGC-without-VA": "",
-        "VA-without-BGC": "",
-        "Without-BGC&VA": "",
-        "BGC&VA": "",
+        "BGC_noVA": "",
+        "VA_noBGC": "",
+        "noBGC_VA": "",
+        "BGC_VA": "",
         "DateModified": ""
     },
     {
@@ -844,10 +844,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "27073",
-        "BGC-without-VA": "34374.98926",
-        "VA-without-BGC": "33189.19186",
-        "Without-BGC&VA": "32588.17126",
-        "BGC&VA": "34976.00986",
+        "BGC_noVA": "34374.98926",
+        "VA_noBGC": "33189.19186",
+        "noBGC_VA": "32588.17126",
+        "BGC_VA": "34976.00986",
         "DateModified": "1404-05-01"
     },
     {
@@ -867,10 +867,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "25071",
-        "BGC-without-VA": "31475.05742",
-        "VA-without-BGC": "31093.97822",
-        "Without-BGC&VA": "30537.40202",
-        "BGC&VA": "32031.63362",
+        "BGC_noVA": "31475.05742",
+        "VA_noBGC": "31093.97822",
+        "noBGC_VA": "30537.40202",
+        "BGC_VA": "32031.63362",
         "DateModified": "1404-05-01"
     },
     {
@@ -890,10 +890,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "22665",
-        "BGC-without-VA": "27951.0023",
-        "VA-without-BGC": "28454.1653",
-        "Without-BGC&VA": "27951.0023",
-        "BGC&VA": "28454.1653",
+        "BGC_noVA": "27951.0023",
+        "VA_noBGC": "28454.1653",
+        "noBGC_VA": "27951.0023",
+        "BGC_VA": "28454.1653",
         "DateModified": "1404-05-01"
     },
     {
@@ -913,10 +913,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "26368",
-        "BGC-without-VA": "29754.46656",
-        "VA-without-BGC": "28512.53376",
-        "Without-BGC&VA": "27927.16416",
-        "BGC&VA": "30339.83616",
+        "BGC_noVA": "29754.46656",
+        "VA_noBGC": "28512.53376",
+        "noBGC_VA": "27927.16416",
+        "BGC_VA": "30339.83616",
         "DateModified": "1404-05-01"
     },
     {
@@ -936,10 +936,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "27130",
-        "BGC-without-VA": "32376.8806",
-        "VA-without-BGC": "31785.4466",
-        "Without-BGC&VA": "31183.1606",
-        "BGC&VA": "32979.1666",
+        "BGC_noVA": "32376.8806",
+        "VA_noBGC": "31785.4466",
+        "noBGC_VA": "31183.1606",
+        "BGC_VA": "32979.1666",
         "DateModified": "1404-05-01"
     },
     {
@@ -959,10 +959,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "24158",
-        "BGC-without-VA": "28225.58796",
-        "VA-without-BGC": "27964.68156",
-        "Without-BGC&VA": "27428.37396",
-        "BGC&VA": "28761.89556",
+        "BGC_noVA": "28225.58796",
+        "VA_noBGC": "27964.68156",
+        "noBGC_VA": "27428.37396",
+        "BGC_VA": "28761.89556",
         "DateModified": "1404-05-01"
     },
     {
@@ -982,10 +982,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "24497",
-        "BGC-without-VA": "30295.58214",
-        "VA-without-BGC": "30839.41554",
-        "Without-BGC&VA": "30295.58214",
-        "BGC&VA": "30839.41554",
+        "BGC_noVA": "30295.58214",
+        "VA_noBGC": "30839.41554",
+        "noBGC_VA": "30295.58214",
+        "BGC_VA": "30839.41554",
         "DateModified": "1404-05-01"
     },
     {
@@ -1005,10 +1005,10 @@
         "Aromatic": "",
         "Benzene": "",
         "BasePrice": "26177",
-        "BGC-without-VA": "32601.39475",
-        "VA-without-BGC": "31503.79314",
-        "Without-BGC&VA": "30922.66374",
-        "BGC&VA": "33182.52415",
+        "BGC_noVA": "32601.39475",
+        "VA_noBGC": "31503.79314",
+        "noBGC_VA": "30922.66374",
+        "BGC_VA": "33182.52415",
         "DateModified": "1404-05-01"
     }
 ]

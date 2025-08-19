@@ -1,4 +1,4 @@
-﻿Component,Source,Description,Density,TotalSulfur,Viscosity,PourPoint,FlashPoint,IBP,RVP,RON,Mercaptan,Oxygenate,Aromatic,Benzene,BasePrice,BGC-without-VA,VA-without-BGC,Without-BGC&VA,BGC&VA,DateModified
+﻿Component,Source,Description,Density,TotalSulfur,Viscosity,PourPoint,FlashPoint,IBP,RVP,RON,Mercaptan,Oxygenate,Aromatic,Benzene,BasePrice,BGC_noVA,VA_noBGC,noBGC_VA,BGC_VA,DateModified
 AW402,Bandar Abbas,,0.795,50,1,-40,44,150,,,,,,,36671,52637.18787,50417.13118,49370.73504,53683.58401,1404-05-01
 AW402,Isfahan,,0.788,900,1,-40,40,150,,,,,,,36671,53457.95334,52430.41118,51384.01504,54504.34949,1404-05-01
 AW402,Kermanshah,,0.795,50,1,-40,44,150,,,,,,,36671,55945.72249,53881.21118,52834.81504,56992.11864,1404-05-01
