@@ -305,12 +305,3 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
-
-
-
-
-
-
-
-
-
