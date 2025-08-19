@@ -169,8 +169,7 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
   Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm<br>
   Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt<br>
   Pour Point: ${mixedPourPoint.toFixed(1)} degC<br>
-  Flash Point: ${mixedFlashPoint.toFixed(2)} degC
-`;
+  Flash Point: ${mixedFlashPoint.toFixed(2)} degC`;
 
 document.getElementById("result2").innerHTML = `
   <b>Total Cost:</b><br>
@@ -178,8 +177,7 @@ document.getElementById("result2").innerHTML = `
   With BGC & Without VA: ${mixed_BGC_noVA.toFixed(0)} Rls/kg<br>
   With VA & Without BGC: ${mixed_VA_noBGC.toFixed(0)} Rls/kg<br>
   Without VA & BGC: ${mixed_noBGC_VA.toFixed(0)} Rls/kg<br>
-  Both VA & BGC: ${mixed_BGC_VA.toFixed(0)} Rls/kg
-`;
+  Both VA & BGC: ${mixed_BGC_VA.toFixed(0)} Rls/kg`;
 });
 
 // تابع ساده برای فیلتر
@@ -317,5 +315,6 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
+
 
 
