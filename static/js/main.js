@@ -162,12 +162,13 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
     </div>
     <div>
       ${values.map(v => `<div>${v}</div>`).join("")}
-    </div>`;
+    </div>
+  `;
 
-//   document.getElementById(
-//     "result"
-//   ).innerText = `Density: ${mixedDensity.toFixed(4)} g/cm³ \n Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm \n Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt \n Pour Point: ${mixedPourPoint.toFixed(1)} degC \n Flash Point: ${mixedFlashPoint.toFixed(2)} degC`;
-// });
+  // document.getElementById(
+  //   "result"
+  // ).innerText = `Density: ${mixedDensity.toFixed(4)} g/cm³ \n Total Sulfur: ${mixedTotalSulfur.toFixed(0)} ppm \n Kin. Viscosity: ${mixedViscosity.toFixed(1)} cSt \n Pour Point: ${mixedPourPoint.toFixed(1)} degC \n Flash Point: ${mixedFlashPoint.toFixed(2)} degC`;
+});
 
 // تابع ساده برای فیلتر
 function filterTable(inputId, tableId, colIndex) {
