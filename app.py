@@ -6,7 +6,7 @@ app = Flask(__name__)
 def load_components():
     components = []
     with open('./static/components.json', encoding='utf-8') as jsonfile:
-        components = json.load(jsonfile) 
+        components = jsonfile.load(jsonfile) 
     return components
 
 @app.route('/components', methods=['GET'])
