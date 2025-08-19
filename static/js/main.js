@@ -16,7 +16,7 @@ fetch("/static/components.json")
         VBN: 14.534 * Math.log(Math.log(parseFloat(c.Viscosity) + 0.8)) + 10.975,
         PP: Math.pow(parseFloat(c.PourPoint) + 273.15, 12.5),
         FP: Math.pow(10, -6.1188 + 2414 / (parseFloat(c.FlashPoint) + 273.15 - 42.6)),
-        BGC_noVA: parseFloat(c.BGC_noVA),
+        BGC_noVA: parseFloat(c.BGC_noVA)
       };
       const row = document.createElement("tr");
       row.innerHTML = `<td><input type="checkbox" class="row-checkbox"></td>
