@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-pwa-cache-v101';
+const CACHE_NAME = "my-cache-" + new Date().toISOString().slice(0,10) + "-" + Date.now();
 const urlsToCache = [
   '/',
   '/static/js/main.js',
