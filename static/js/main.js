@@ -165,20 +165,20 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
 
   const specs = ["Density", "Total Sulfur", "Kinematic Viscosity", "Pour Point", "Flash Point"];
   const values = [
-    `${mixedDensity.toFixed(4)} g/cm³`,
-    `${mixedTotalSulfur.toFixed(0)} ppm`,
-    `${mixedViscosity.toFixed(1)} cSt`,
-    `${mixedPourPoint.toFixed(1)} °C`,
-    `${mixedFlashPoint.toFixed(2)} °C`
+    `${mixedDensity.toFixed(4)}  g/cm³`,
+    `${mixedTotalSulfur.toFixed(0)}  ppm`,
+    `${mixedViscosity.toFixed(1)}  cSt`,
+    `${mixedPourPoint.toFixed(1)}  °C`,
+    `${mixedFlashPoint.toFixed(2)}  °C`
   ];
 
   const costtype = ["Base", "With BGC & Without VA", "With VA & Without BGC", "Without VA & BGC", "Both VA & BGC"];
   const costs = [
-    `${mixed_BasePrice.toFixed(0)} Rls/kg`,
-    `${mixed_BGC_noVA.toFixed(0)} Rls/kg`,
-    `${mixed_VA_noBGC.toFixed(0)} Rls/kg`,
-    `${mixed_noBGC_VA.toFixed(0)} Rls/kg`,
-    `${mixed_BGC_VA.toFixed(0)} Rls/kg`
+    `${mixed_BasePrice.toFixed(0)}  Rls/kg`,
+    `${mixed_BGC_noVA.toFixed(0)}  Rls/kg`,
+    `${mixed_VA_noBGC.toFixed(0)}  Rls/kg`,
+    `${mixed_noBGC_VA.toFixed(0)}  Rls/kg`,
+    `${mixed_BGC_VA.toFixed(0)}  Rls/kg`
   ];
   
   document.getElementById("result").innerHTML = `
@@ -332,6 +332,7 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
+
 
 
 
