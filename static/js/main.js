@@ -16,7 +16,11 @@ fetch("/static/components.json")
         VBN: 14.534 * Math.log(Math.log(parseFloat(c.Viscosity) + 0.8)) + 10.975,
         PP: Math.pow(parseFloat(c.PourPoint) + 273.15, 12.5),
         FP: Math.pow(10, -6.1188 + 2414 / (parseFloat(c.FlashPoint) + 273.15 - 42.6)),
-        BGC_noVA: parseFloat(c.BGC_noVA)
+        BasePrice: parseFloat(c.BasePrice),
+        BGC_noVA: parseFloat(c.BGC_noVA),
+        VA_noBGC: parseFloat(c.VA_noBGC),
+        noBGC_VA: parseFloat(c.noBGC_VA),
+        BGC_VA: parseFloat(c.BGC_VA)
       };
       const row = document.createElement("tr");
       row.innerHTML = `<td><input type="checkbox" class="row-checkbox"></td>
@@ -113,8 +117,12 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
   let weightedSumVBN = 0;
   let weightedSumPPB = 0;
   let weightedSumFPB = 0;
-  let weightedBGCNOVA = 0;
-
+  let weighted_BasePrice = 0;
+  let weighted_BGC_noVA = 0;
+  let weighted_VA_noBGC=0;
+  let weighted_noBGC_VA=0;
+  let weighted_BGC_VA=0;
+  
   document.querySelectorAll("#selectedTable tbody tr").forEach((row) => {
     const cells = row.querySelectorAll("td");
     const compName = cells[1].innerText;
@@ -133,7 +141,11 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
       weightedSumVBN += fraction * componentProperties[key].VBN;
       weightedSumPPB += fraction * componentProperties[key].PP / componentProperties[key].Density;
       weightedSumFPB += fraction * componentProperties[key].FP / componentProperties[key].Density;
-      weightedBGCNOVA += fraction* BGC_noVA
+      weighted_BasePrice += fraction*componentProperties[key].BasePrice;
+      weighted_BGC_noVA += fraction*  componentProperties[key].BGC_noVA;
+      weighted_VA_noBGC +=fraction*componentProperties[key].VA_noBGC;
+      weighted_noBGC_VA +=fraction*componentProperties[key].noBGC_VA;
+      weighted_BGC_VA +=fraction*componentProperties[key].BGC_VA;
     }
   });
 
@@ -145,7 +157,11 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
   let mixedPourPoint = Math.pow(mixedPP, 0.08) - 273.15;
   let mixedFP = mixedDensity * weightedSumFPB / totalFraction;
   let mixedFlashPoint = 2414 / (Math.log10(mixedFP) + 6.1188) + 42.6 - 273.15;
-  let mixedbgcva = weightedBGCNOVA / totalFraction;
+  let mixed_BasePrice = 10 * weighted_BasePrice / totalFraction;
+  let mixed_BGC_noVA = 10 * weighted_BGC_noVA / totalFraction;
+  let mixed_VA_noBGC= 10 *weighted_VA_noBGC / totalFraction;
+  let mixed_noBGC_VA=10 *weighted_noBGC_VA / totalFraction;
+  let mixed_BGC_VA=10 * weighted_BGC_VA / totalFraction;
 
   const specs = ["Density", "Total Sulfur", "Kinematic Viscosity", "Pour Point", "Flash Point"];
   const values = [
@@ -156,12 +172,27 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
     `${mixedFlashPoint.toFixed(2)} °C`
   ];
 
+  const costtype = ["Base", "With BGC & Without VA", "With VA & Without BGC", "Without VA & BGC", "Both VA & BGC"];
+  const costs = [
+    `${mixed_BasePrice.toFixed(0)} Rls/kg`,
+    `${mixed_BGC_noVA.toFixed(0)} Rls/kg`,
+    `${mixed_VA_noBGC.toFixed(0)} Rls/kg`,
+    `${mixed_noBGC_VA.toFixed(0)} Rls/kg`,
+    `${mixed_BGC_VA.toFixed(0)} Rls/kg`
+  ];
+  
   document.getElementById("result").innerHTML = `
     <div>
       ${specs.map(s => `<div>${s}</div>`).join("")}
     </div>
     <div>
       ${values.map(v => `<div>${v}</div>`).join("")}
+    </div>
+    <div>
+      ${costtype.map(t => `<div>${t}</div>`).join("")}
+    </div>
+    <div>
+      ${costs.map(c => `<div>${c}</div>`).join("")}
     </div>
   `;
 });
@@ -301,5 +332,6 @@ function removeSelectedRows() {
 }
 
 updateFractionWarning();
+
 
 
