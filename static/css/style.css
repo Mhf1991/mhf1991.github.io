@@ -80,7 +80,17 @@ button:hover {
   background-color: #29802e;
 }
 
-#result {
+#result1 {
+  padding: 10px;
+  width: 100%;
+  margin: 15px auto;
+  background-color: #e7f3e7;
+  border: 1px solid #c3e6c3;
+  border-radius: 6px;
+  min-height: 30px;
+}
+
+#result2 {
   padding: 10px;
   width: 100%;
   margin: 15px auto;
@@ -148,4 +158,5 @@ button:hover {
     width: 100%;
   }
 }
+
 
